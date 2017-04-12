@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-anime-helper'
+  name: 'ember-anime-helpers'
 };

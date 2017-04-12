@@ -1,17 +1,17 @@
 {
-  "name": "ember-anime-helper",
+  "name": "ember-anime-helpers",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember helpers for building purely CSS-based animations and transitions",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Thomas Chen",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/foxnewsnetwork/ember-anime-helpers",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
