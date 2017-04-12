@@ -1,0 +1,1 @@
+export { default } from 'ember-anime-helpers/components/anime-overflow-scroll';
