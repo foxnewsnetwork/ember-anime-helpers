@@ -3,6 +3,6 @@ import wrapGenerator from '../utils/gen-wrap';
 
 export default Ember.Helper.extend({
   compute([fstar, ...args]) {
-    return Ember.get(wrapGenerator(fstar, ...args), 'value');
+    return wrapGenerator(fstar, ...args);
   }
 });
