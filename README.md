@@ -3,6 +3,9 @@
 # ember-anime-helpers
 Ember CSS and hbs based animation / transition helpers. Built around the idea you, as the developer, should be specifying your animations / transitions exclusively in css and merely declaring their usage in hbs.
 
+TODO:
+- [ ] look into https://github.com/thefrontside/ember-let to see how to build a macro pre-processor
+
 ## Desired API
 ```scss
 .some-component {

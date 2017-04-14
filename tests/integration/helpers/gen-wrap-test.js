@@ -23,7 +23,7 @@ function * fstar(w) {
   const aa = yield resolveAfter(z * 2);
   Ember.Logger.warn('aa-', aa);
   return aa;
-};
+}
 
 function setup() {
   this.set('inputValue', fstar);

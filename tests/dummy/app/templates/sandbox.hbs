@@ -1,0 +1,31 @@
+<div class='sandbox__gen-take-vanilla'>
+    {{gen-take panstar x1 onDone=(action 'vanillaDone')}}
+</div>
+<div class='sandbox__gen-take-vanilla-results'>
+    {{vanillaResults}}
+</div>
+
+<div class='sandbox__gen-take-expr'>
+    {{#let (hash 
+        xxx=(gen-take
+            panstar 
+            x1
+            onDone=(action 'exprDone' 'peppercorn'))) as |package|}}
+        {{package.xxx}}
+    {{/let}}
+</div>
+<div class='sandbox__gen-take-expr-results'>
+    {{exprResults}}
+</div>
+
+<div class='sandbox__gen-take-control'>
+    {{get 
+        (gen-wrap 
+        panstar 
+        x1 
+        onDone=(action 'controlDone')) 
+        'value'}}
+</div>
+<div class='sandbox__gen-take-control-results'>
+    {{controlResults}}
+</div>
