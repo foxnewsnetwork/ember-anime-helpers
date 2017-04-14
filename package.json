@@ -11,7 +11,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/foxnewsnetwork/ember-anime-helpers",
+  "repository": "https://github.com/foxnewsnetwork/ember-gen-helpers",
   "scripts": {
     "build": "ember build",
     "start": "ember server",

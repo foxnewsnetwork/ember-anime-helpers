@@ -4,7 +4,7 @@
 const VersionChecker = require('ember-cli-version-checker');
 
 module.exports = {
-  name: 'ember-anime-helpers',
+  name: 'ember-gen-helpers',
 
   setupPreprocessorRegistry(type, registry) {
     // Inline let is only supported in Ember 2.0 and up.
