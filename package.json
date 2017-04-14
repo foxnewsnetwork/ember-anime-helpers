@@ -1,7 +1,7 @@
 {
-  "name": "ember-anime-helpers",
+  "name": "ember-gen-helpers",
   "version": "0.0.0",
-  "description": "Ember helpers for building purely CSS-based animations and transitions",
+  "description": "ember cli helpers for using generators in templates",
   "keywords": [
     "ember-addon"
   ],
